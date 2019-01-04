@@ -1,5 +1,3 @@
-[comment]: # vim:set syntax=mkd
-
 ---
 # bkc
 __simple corporate site__
@@ -18,7 +16,7 @@ __simple corporate site__
 ---
 ### Futures:
 - Main page with animation
-- Static pages of products and services
+- Static pages of solutions and services
 - Contacts page with feedback form, contact information, map
 - Static news pages
 - Header with logo and contacts
@@ -41,29 +39,56 @@ __simple corporate site__
 
 
 ---
-### Pages:
-- Main
-- Products
-- Services
-- News
-- Career
-- Contacts
-- About
-- Portfolio
-- Clients
-- Partners
-- Site map
-- Certificates
-- Page 404
-- Search page
-
----
 ### Page tree:
-Main
-|
-|---About
-|---Products
-|---Services
-|---
+		Main
+		|
+		|---Solutions
+		|	|
+		|	|---Solution #1
+		|	|---Solution #2
+		|	|--- ...
+		|	\---Solution #N
+		|
+		|---Services
+		|	|
+		|	|---Service #1
+		|	|---Service #2
+		|	|--- ...
+		|	\---Service #N
+		|
+		|---News
+		|	|
+		|	|---News #1
+		|	|---News #2
+		|	|--- ...
+		|	\---News #N
+		|
+		|---Portfolio
+		|	|
+		|	|---Project #1
+		|	|---Project #2
+		|	|--- ...
+		|	\---Project #N
+		|
+		|---About
+		|	|
+		|	|---Departament
+		|	|---Resourses
+		|	|---Clients
+		|	|---Partners
+		|	|---Certificates
+		|	\---Career
+		|
+		|---Contacts
+		|
+		|---Search	
+		|
+		|---Site map
+		|
+		\---404
 
-
+### Page descriptions:
+| Page | Functionality | Body descripton | Elements* |
+| --- | --- | --- | --- |
+| Main | Entering point | Animation image, news | H, N, S, A, F |
+\*Sections: H - Header, N - Navbar, S - Sidebar, A - Aside, F - Footer
