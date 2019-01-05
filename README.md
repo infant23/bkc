@@ -95,7 +95,7 @@ __simple corporate site__
 ---
 ### Page descriptions:
 
-| # | Page | Functionality | Body [^1] | Section [^2](#a2) |
+| # | Page | Functionality | Body [^1] | Section [^2](#Sections\:) |
 | --- | --- | --- | --- | --- |
 | 1 | Main | Entering point | Animation image, news | H, N, S, A, F |
 | 2 | Solutions | List of solutions | Title, Brief, Image | H, N, S, A, F |
@@ -133,8 +133,7 @@ Bla bla <sup id="a1">[1](#f1)</sup>
 	- Content
 	- Image
 
-#### 2 {#a2}
-Sections:
+#### Sections:
 	- H - Header,
 	- N - Navbar,
 	- B - Bread crumbs,
