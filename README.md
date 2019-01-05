@@ -1,11 +1,22 @@
 ---
-# bkc
+# __bkc__
 ---
 
-__simple corporate site__
 
+simple corporate site
+
+
+### __Content__
+1. _Used technologies_ <em id="c1">[Used technologies](#s1)</em>
+2. _Futures_ <em id="c2">[Futures](#s2)</em>
+3. _Page tree_ <em id="c3">[Page tree](#s3)</em>
+4. _Page descriptions_ <em id="c4">[Page descriptions](#s4)</em>
+
+
+
+
+<h3 id="s1">Used technologies:</h>[↩](#c1)
 ---
-### Used technologies:
 - Python
 - Django
 - HTML5
@@ -13,8 +24,9 @@ __simple corporate site__
 - Grid
 - JS
 
+
+<h3 id="s2">Futures:</h>[↩](#c2)
 ---
-### Futures:
 - Main page with animation
 - Static pages of solutions and services
 - Contacts page with feedback form, contact information, map
@@ -37,112 +49,83 @@ __simple corporate site__
 - Search
 - Crosslinks with main site
 
+
+<h3 id="s3">Page tree:</h>[↩](#c3)
 ---
-### Page tree:
 		Main
 		|
 		|---Solutions
-		|	|
-		|	|---Solution #1
-		|	|---Solution #2
-		|	|--- ...
-		|	\---Solution #N
-		|
+		|	\---Solution #1 ... Solution #N
 		|---Services
-		|	|
-		|	|---Service #1
-		|	|---Service #2
-		|	|--- ...
-		|	\---Service #N
-		|
+		|	\---Service #1 ... Service #N
 		|---News
-		|	|
-		|	|---News #1
-		|	|---News #2
-		|	|--- ...
-		|	\---News #N
-		|
+		|	\---News #1 ... News #N
 		|---Portfolio
-		|	|
-		|	|---Project #1
-		|	|---Project #2
-		|	|--- ...
-		|	\---Project #N
-		|
+		|	\---Project #1 ... Project #N
 		|---About
-		|	|
 		|	|---Resourses
 		|	|---Clients
 		|	|---Partners
 		|	|---Certificates
 		|	\---Career
-		|		|
-		|		|---Vacancy #1
-		|		|---Vacancy #2
-		|		|--- ...
-		|		\---Vacancy #N
-		|
+		|		\---Vacancy #1 ... Vacancy #N
 		|---Contacts
-		|
 		|---Search	
-		|
 		|---Site map
-		|
 		|---Page 404
 		|
 		\---Admin pages (default)
 
+
+<h3 id="s4">Page descriptions:</h>[↩](#c4)
 ---
-### Page descriptions:
-
-| # | Page | Functionality | Body [^1] | Section [^2](#Sections\:) |
+| # | Page | Functionality | Body <sup id="a1">[1](#f1)</sup> | Sections <sup id="a2">[2](#f2)</sup> |
 | --- | --- | --- | --- | --- |
-| 1 | Main | Entering point | Animation image, news | H, N, S, A, F |
-| 2 | Solutions | List of solutions | Title, Brief, Image | H, N, S, A, F |
-| 3 | Solution #N |  |  | H, N, S, A, F |
-| 4 | Services |  |  | H, N, S, A, F |
-| 5 | Service #N |  |  | H, N, S, A, F |
-| 6 | News |  |  | H, N, S, A, F |
-| 7 | New #N |  |  | H, N, S, A, F |
-| 8 | Portfolio |  |  | H, N, S, A, F |
-| 9 | Project #N |  |  | H, N, S, A, F |
-| 10 | About |  |  | H, N, S, A, F |
-| 11 | Resourses |  |  | H, N, S, A, F |
-| 12 | Clients |  |  | H, N, S, A, F |
-| 13 | Partners |  |  | H, N, S, A, F |
-| 14 | Certificates |  |  | H, N, S, A, F |
-| 15 | Career |  |  | H, N, S, A, F |
-| 16 | Vacancy #N |  |  | H, N, S, A, F |
-| 17 | Contacts |  |  | H, N, S, A, F |
-| 18 | Search |  |  | H, N, S, A, F |
-| 19 | Site map |  |  | H, N, S, A, F |
-| 20 | Page 404 |  |  | H, N, S, A, F |
-| 21 |  |  |  | H, N, S, A, F |
-| 22 |  |  |  | H, N, S, A, F |
-| 23 |  |  |  | H, N, S, A, F |
-| 24 |  |  |  | H, N, S, A, F |
-| 25 |  |  |  | H, N, S, A, F |
-| 26 |  |  |  | H, N, S, A, F |
-| 27 |  |  |  | H, N, S, A, F |
-
-Bla bla <sup id="a1">[1](#f1)</sup>
-
-[^1]: #Body_elements :
-	- Title
-	- Brief
-	- Content
-	- Image
-
-#### Sections:
-	- H - Header,
-	- N - Navbar,
-	- B - Bread crumbs,
-	- S - Sidebar,
-	- A - Aside,
-	- F - Footer,
-	- U - "Go to top" button
+| 1 | Main | Entering point | A(L)(N(TBIL)) | HNSAF |
+| 2 | Solutions | List of solutions | (TBIL) | HNSAF |
+| 3 | Solution #N |  | TDHRF | HNSAF |
+| 4 | Services |  | (TBIL) | HNSAF |
+| 5 | Service #N |  | TDRF | HNSAF |
+| 6 | News |  | (TBIL) | HNSAF |
+| 7 | New #N |  | TD | HNSAF |
+| 8 | Portfolio |  | (TBIL) | HNSAF |
+| 9 | Project #N |  | TD | HNSAF |
+| 10 | About |  | TD(L) | HNSAF |
+| 11 | Resourses |  | TD | HNSAF |
+| 12 | Clients |  | (TBIL) | HNSAF |
+| 13 | Partners |  | (TBIL) | HNSAF |
+| 14 | Certificates |  | (TI) | HNSAF |
+| 15 | Career |  | D(TBL) | HNSAF |
+| 16 | Vacancy #N |  | TDF | HNSAF |
+| 17 | Contacts |  | TCMFL | HNSAF |
+| 18 | Search |  | T(TBL) | HNSAF |
+| 19 | Site map |  | (TL) | HNSAF |
+| 20 | Page 404 |  | DL | HNSAF |
 
 
-<b id="f1">1</b> Footnote content here. [↩](#a1)
+<b id="f1">1</b> Body_elements:[↩](#a1)
 
+- A - Animated image with responsive links
+- () - List of ...
+- T - Title
+- B - Brief
+- I - Image
+- N - Short news (title, Brief and Image of News)
+- D - Description (text, tables, images, videos)
+- H - Technical characteristic
+- R - Useful resources (datasheets, presentations, manuals, videos etc.)
+- F - Feedback form
+- L - Link
+- M - Map
+- C - Contacts
+
+<b id="f2">2</b> Sections:[↩](#a2)
+
+- H - Header,
+- N - Navbar,
+- B - Bread crumbs,
+- S - Sidebar,
+- A - Aside,
+- F - Footer,
+- U - "Go to top" button
 
