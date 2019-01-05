@@ -45,3 +45,5 @@ find . -name "*.pyc" -exec git rm -f "{}" \;
 
 # to view md-file:
 grip -b example.md
+
+discount-mkd2html README.md && less README.html
