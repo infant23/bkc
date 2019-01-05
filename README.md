@@ -1,22 +1,21 @@
 ---
 # __bkc__
----
 
 
 simple corporate site
 
 
 ### __Content__
-1. _Used technologies_ <em id="c1">[Used technologies](#s1)</em>
-2. _Futures_ <em id="c2">[Futures](#s2)</em>
-3. _Page tree_ <em id="c3">[Page tree](#s3)</em>
-4. _Page descriptions_ <em id="c4">[Page descriptions](#s4)</em>
+
+1. <em id="c1">[Used technologies](#s1)</em>
+2. <em id="c2">[Futures](#s2)</em>
+3. <em id="c3">[Page tree](#s3)</em>
+4. <em id="c4">[Page descriptions](#s4)</em>
 
 
-
-
-<h3 id="s1">Used technologies:</h>[↩](#c1)
 ---
+<h3 id="s1">Used technologies:</h>[↩](#c1)
+
 - Python
 - Django
 - HTML5
@@ -25,8 +24,9 @@ simple corporate site
 - JS
 
 
-<h3 id="s2">Futures:</h>[↩](#c2)
 ---
+<h3 id="s2">Futures:</h>[↩](#c2)
+
 - Main page with animation
 - Static pages of solutions and services
 - Contacts page with feedback form, contact information, map
@@ -50,8 +50,9 @@ simple corporate site
 - Crosslinks with main site
 
 
-<h3 id="s3">Page tree:</h>[↩](#c3)
 ---
+<h3 id="s3">Page tree:</h>[↩](#c3)
+
 		Main
 		|
 		|---Solutions
@@ -77,8 +78,9 @@ simple corporate site
 		\---Admin pages (default)
 
 
-<h3 id="s4">Page descriptions:</h>[↩](#c4)
 ---
+<h3 id="s4">Page descriptions:</h>[↩](#c4)
+
 | # | Page | Functionality | Body <sup id="a1">[1](#f1)</sup> | Sections <sup id="a2">[2](#f2)</sup> |
 | --- | --- | --- | --- | --- |
 | 1 | Main | Entering point | A(L)(N(TBIL)) | HNSAF |
@@ -128,4 +130,3 @@ simple corporate site
 - A - Aside,
 - F - Footer,
 - U - "Go to top" button
-
