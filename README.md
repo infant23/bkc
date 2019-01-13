@@ -87,23 +87,25 @@ simple corporate site
 | 1 | Main | Entering point | A(L)(N(TBIL)) | HNSAF |
 | 2 | Solutions | List of solutions | (TBIL) | HNSAF |
 | 3 | Solution #N |  | TDHRF | HNSAF |
-| 4 | Services |  | (TBIL) | HNSAF |
-| 5 | Service #N |  | TDRF | HNSAF |
-| 6 | News |  | (TBIL) | HNSAF |
-| 7 | New #N |  | TD | HNSAF |
-| 8 | Portfolio |  | (TBIL) | HNSAF |
-| 9 | Project #N |  | TD | HNSAF |
-| 10 | About |  | TD(L) | HNSAF |
-| 11 | Resourses |  | TD | HNSAF |
-| 12 | Clients |  | (TBIL) | HNSAF |
-| 13 | Partners |  | (TBIL) | HNSAF |
-| 14 | Certificates |  | (TI) | HNSAF |
-| 15 | Career |  | D(TBL) | HNSAF |
-| 16 | Vacancy #N |  | TDF | HNSAF |
-| 17 | Contacts |  | TCMFL | HNSAF |
-| 18 | Search |  | T(TBL) | HNSAF |
-| 19 | Site map |  | (TL) | HNSAF |
-| 20 | Page 404 |  | DL | HNSAF |
+| 4 | Products |  | (TBIL) | HNSAF |
+| 5 | Product #N |  | TDHRF | HNSAF |
+| 6 | Services |  | (TBIL) | HNSAF |
+| 7 | Service #N |  | TDRF | HNSAF |
+| 8 | News |  | (TBIL) | HNSAF |
+| 9 | New #N |  | TD | HNSAF |
+| 10 | Portfolio |  | (TBIL) | HNSAF |
+| 11 | Project #N |  | TD | HNSAF |
+| 12 | About |  | TD(L) | HNSAF |
+| 13 | Resourses |  | TD | HNSAF |
+| 14 | Clients |  | (TBIL) | HNSAF |
+| 15 | Partners |  | (TBIL) | HNSAF |
+| 16 | Certificates |  | (TI) | HNSAF |
+| 17 | Career |  | D(TBL) | HNSAF |
+| 18 | Vacancy #N |  | TDF | HNSAF |
+| 19 | Contacts |  | TCMFL | HNSAF |
+| 20 | Search |  | T(TBL) | HNSAF |
+| 21 | Site map |  | (TL) | HNSAF |
+| 22 | Page 404 |  | DL | HNSAF |
 
 
 <b id="f1">1</b> Body_elements:[↩](#a1)
@@ -177,4 +179,4 @@ simple corporate site
 | upload_id |
 | description |
 | characteristic |
-| uploads_id |
+| resources |

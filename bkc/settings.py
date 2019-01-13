@@ -25,12 +25,14 @@ SECRET_KEY = 'wq8u8rcn#cj(2@-aj)ajh(7rhbq-p%3o46(d31whu#&c_)&*j)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '192.168.8.214']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'tinymce',
+    'corporate',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -54,7 +56,7 @@ ROOT_URLCONF = 'bkc.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates/')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -103,9 +105,13 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGES = [
+    ('en', ('English')),
+]
 
-TIME_ZONE = 'UTC'
+LANGUAGE_CODE = 'en-GB'
+
+TIME_ZONE = 'Europe/Kiev'
 
 USE_I18N = True
 
@@ -118,3 +124,20 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static/')]
+
+# Mediafiles (Images, etc.)
+MEDIA_ROOT = os.path.join(BASE_DIR, 'upload/')
+MEDIA_URL = '/upload/'
+
+
+# Email settings SMTP:
+
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 1025
+
+# Email for debug:
+# EMAIL_HOST = 'localhost'
+# EMAIL_PORT = 1025
+# #use:
+# python -m smtpd -n -c DebuggingServer localhost:1025

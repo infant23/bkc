@@ -1,4 +1,4 @@
 pip
 django==2.0.9
 Pillow
-grip
+django-tinymce4-lite
