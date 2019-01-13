@@ -11,6 +11,7 @@ simple corporate site
 2. <em id="c2">[Futures](#s2)</em>
 3. <em id="c3">[Page tree](#s3)</em>
 4. <em id="c4">[Page descriptions](#s4)</em>
+5. <em id="c5">[BD structure](#s5)</em>
 
 
 ---
@@ -71,7 +72,7 @@ simple corporate site
 		|	\---Career
 		|		\---Vacancy #1 ... Vacancy #N
 		|---Contacts
-		|---Search	
+		|---Search
 		|---Site map
 		|---Page 404
 		|
@@ -130,3 +131,50 @@ simple corporate site
 - A - Aside,
 - F - Footer,
 - U - "Go to top" button
+
+
+---
+<h3 id="s5">BD structure:</h>[↩](#c5)
+
+| Type |
+| --- |
+| id |
+| title |
+
+| Upload |
+| --- |
+| id |
+| type_id |
+| title |
+| slug |
+| data |
+
+| Class |
+| --- |
+| id |
+| title |
+
+| Company |
+| --- |
+| id |
+| class_id |
+| title |
+| upload_id |
+| brief |
+| url |
+
+| Category |
+| --- |
+| id |
+| title |
+
+| Post |
+| --- |
+| id |
+| category_id |
+| title |
+| brief |
+| upload_id |
+| description |
+| characteristic |
+| uploads_id |

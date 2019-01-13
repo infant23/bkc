@@ -19,6 +19,7 @@
 <li><em id="c2"><a href="#s2">Futures</a></em></li>
 <li><em id="c3"><a href="#s3">Page tree</a></em></li>
 <li><em id="c4"><a href="#s4">Page descriptions</a></em></li>
+<li><em id="c5"><a href="#s5">BD structure</a></em></li>
 </ol>
 
 
@@ -87,7 +88,7 @@
     |   \---Career
     |       \---Vacancy #1 ... Vacancy #N
     |---Contacts
-    |---Search  
+    |---Search
     |---Site map
     |---Page 404
     |
@@ -283,6 +284,151 @@
 <li>F - Footer,</li>
 <li>U - &ldquo;Go to top&rdquo; button</li>
 </ul>
+
+
+<hr />
+
+<p><h3 id="s5">BD structure:</h><a href="#c5">↩</a></p>
+
+<table>
+<thead>
+<tr>
+<th> Type </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> id </td>
+</tr>
+<tr>
+<td> title </td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th> Upload </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> id </td>
+</tr>
+<tr>
+<td> type_id </td>
+</tr>
+<tr>
+<td> title </td>
+</tr>
+<tr>
+<td> slug </td>
+</tr>
+<tr>
+<td> data </td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th> Class </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> id </td>
+</tr>
+<tr>
+<td> title </td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th> Company </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> id </td>
+</tr>
+<tr>
+<td> class_id </td>
+</tr>
+<tr>
+<td> title </td>
+</tr>
+<tr>
+<td> upload_id </td>
+</tr>
+<tr>
+<td> brief </td>
+</tr>
+<tr>
+<td> url </td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th> Category </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> id </td>
+</tr>
+<tr>
+<td> title </td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th> Post </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> id </td>
+</tr>
+<tr>
+<td> category_id </td>
+</tr>
+<tr>
+<td> title </td>
+</tr>
+<tr>
+<td> brief </td>
+</tr>
+<tr>
+<td> upload_id </td>
+</tr>
+<tr>
+<td> description </td>
+</tr>
+<tr>
+<td> characteristic </td>
+</tr>
+<tr>
+<td> uploads_id </td>
+</tr>
+</tbody>
+</table>
 
 </body>
 </html>
